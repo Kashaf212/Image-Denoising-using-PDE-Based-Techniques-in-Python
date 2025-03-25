@@ -21,21 +21,16 @@ To remove noise from images using PDE-based methods while preserving important i
 
 ## 🧠 Key Concepts
 
-Variational Model: Solves an energy minimization problem to reduce noise.
-
-Perona-Malik Model: Performs edge-preserving smoothing using anisotropic diffusion.
-
-Pre-Smoothing: Gaussian filter applied before PDEs to make them more stable.
+**Variational Model**: Solves an energy minimization problem to reduce noise.  
+**Perona-Malik Model**: Performs edge-preserving smoothing using anisotropic diffusion.  
+**Pre-Smoothing**: Gaussian filter applied before PDEs to make them more stable.
 
 ## ✅ Features
 
-Support for different noise types: Gaussian, Salt & Pepper, Speckle, Poisson
-
-Flexible pre-smoothing and padding strategies
-
-Visual and numerical comparison of denoising results
-
-Calculates Noise Estimation Error (NE) for each method
+- Support for different noise types: Gaussian, Salt & Pepper, Speckle, Poisson  
+- Flexible pre-smoothing and padding strategies  
+- Visual and numerical comparison of denoising results  
+- Calculates Noise Estimation Error (NE) for each method
 
 ## 🔧 How to Run
 
@@ -54,35 +49,22 @@ Calculates Noise Estimation Error (NE) for each method
 ## 📊 Output
 
 The following denoising techniques are compared:
-
-Variational PDE
-
-Perona-Malik PDE
-
-Average Filter
-
-Median Filter
-
-Bilateral Filter
-
+-Variational PDE
+-Perona-Malik PDE
+-Average Filter
+-Median Filter
+-Bilateral Filter
 Each method's performance is compared using:
+-Visual Results
+-Noise Estimation Error (NE)
 
-Visual Results
+## 📉 Sample Results:
 
-Noise Estimation Error (NE)
-
-## 📈 Sample Results:
-
-NE1 (Noised): 0.2137
-
-NE2 (Variational Denoiser): 0.1925
-
-NE3 (Perona-Malik Denoiser): 0.1915
-
-NE4 (Average Filter): 0.1924
-
-NE5 (Median Filter): 0.1927
-
+NE1 (Noised): 0.2137  
+NE2 (Variational Denoiser): 0.1925  
+NE3 (Perona-Malik Denoiser): 0.1915  
+NE4 (Average Filter): 0.1924  
+NE5 (Median Filter): 0.1927  
 NE6 (Bilateral Filter): 0.1926
 
 ## 👤 About Me
