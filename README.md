@@ -1,10 +1,10 @@
 ### This project focuses on denoising grayscale images using Partial Differential Equation (PDE) based techniques, particularly the Variational Model and Perona-Malik Anisotropic Diffusion Model. The project also compares these methods with traditional denoising filters such as Average, Median, and Bilateral Filters.
 
-## 📌 Objective
+## Objective
 
 To remove noise from images using PDE-based methods while preserving important image details like edges and textures.
 
-## 📁 Project Structure
+## Project Structure
 
 <pre> Denoising-PDEs/
 ├── main.py                      # Main driver script
@@ -19,20 +19,20 @@ To remove noise from images using PDE-based methods while preserving important i
 ├── perona_malik.py              # Perona-Malik anisotropic diffusion denoising
 ├── result/                      # Folder to save results </pre>
 
-## 🧠 Key Concepts
+## Key Concepts
 
 **Variational Model**: Solves an energy minimization problem to reduce noise.  
 **Perona-Malik Model**: Performs edge-preserving smoothing using anisotropic diffusion.  
 **Pre-Smoothing**: Gaussian filter applied before PDEs to make them more stable.
 
-## ✅ Features
+## Features
 
 - Support for different noise types: Gaussian, Salt & Pepper, Speckle, Poisson  
 - Flexible pre-smoothing and padding strategies  
 - Visual and numerical comparison of denoising results  
 - Calculates Noise Estimation Error (NE) for each method
 
-## 🛠️ How to Run
+## How to Run
 
 1. **Install dependencies**:  
    ```bash
@@ -43,7 +43,7 @@ To remove noise from images using PDE-based methods while preserving important i
    python main.py
 4. Denoised results and comparison plots will be saved in the result/ folder.
 
-## 🖼️ Output
+## Output
 
 The following denoising techniques are compared:
 
@@ -59,7 +59,7 @@ Each method's performance is compared using:
 - Noise Estimation Error (NE)
 
 
-## 📉 Sample Results:
+## Sample Results:
 
 NE1 (Noised): 0.2137  
 NE2 (Variational Denoiser): 0.1925  
@@ -68,7 +68,7 @@ NE4 (Average Filter): 0.1924
 NE5 (Median Filter): 0.1927  
 NE6 (Bilateral Filter): 0.1926
 
-## 👤 About Me
+## About Me
 
 **Kashaf Jamil**  
 Department of Mathematics  
@@ -76,13 +76,13 @@ University of Gujrat
 Roll No: 18541509-085  
 **Research Interests:** Image Processing, Computer Vision, Artificial Intelligence
 
-## ⭐ Acknowledgements
+## Acknowledgements
 
 Inspired by research from:
 
  [Springer VCIBA Paper on Variational and Perona-Malik Denoising](https://vciba.springeropen.com/articles/10.1186/s42492-019-0016-7)
 
-## 🧠 Future Work
+## Future Work
 
 - Extend to color images  
 - Implement PSNR and SSIM metrics  
