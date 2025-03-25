@@ -6,7 +6,7 @@ To remove noise from images using PDE-based methods while preserving important i
 
 📁 Project Structure
 
-<pre> ```Denoising-PDEs/
+<pre> Denoising-PDEs/
 ├── main.py                     # Main driver script
 ├── imnoise.py                 # Adds synthetic noise (Gaussian, Salt & Pepper, etc.)
 ├── imcast.py                  # Handles image data type conversions
@@ -15,7 +15,7 @@ To remove noise from images using PDE-based methods while preserving important i
 ├── variational_denoiser.py   # Variational PDE denoising
 ├── perona_malik.py           # Perona-Malik anisotropic diffusion denoising
 ├── fspecial.py               # Custom kernels (Gaussian, Laplacian, etc.)
-├── result/                   # Folder to save results``` </pre>
+├── result/                   # Folder to save results </pre>
 
 🧠 Key Concepts
 
