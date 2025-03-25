@@ -6,7 +6,7 @@ To remove noise from images using PDE-based methods while preserving important i
 
 📁 Project Structure
 
-'''Denoising-PDEs/
+<pre> ```Denoising-PDEs/
 ├── main.py                     # Main driver script
 ├── imnoise.py                 # Adds synthetic noise (Gaussian, Salt & Pepper, etc.)
 ├── imcast.py                  # Handles image data type conversions
@@ -15,7 +15,7 @@ To remove noise from images using PDE-based methods while preserving important i
 ├── variational_denoiser.py   # Variational PDE denoising
 ├── perona_malik.py           # Perona-Malik anisotropic diffusion denoising
 ├── fspecial.py               # Custom kernels (Gaussian, Laplacian, etc.)
-├── result/                   # Folder to save results'''
+├── result/                   # Folder to save results``` </pre>
 
 🧠 Key Concepts
 
@@ -39,13 +39,13 @@ Calculates Noise Estimation Error (NE) for each method
 
 1. Install dependencies:
 
-'''pip install numpy opencv-python matplotlib scipy scikit-image'''
+<pre> ```pip install numpy opencv-python matplotlib scipy scikit-image``` </pre>
 
 2. Add your image (e.g., image.jpg or image.png) to the project folder.
   
 3. Run the main script:
 
-'''python main.py'''
+<pre> ```python main.py``` </pre>
 
 4. Denoised results and comparison plots will be saved in the result/ folder.
 
