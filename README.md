@@ -1,23 +1,25 @@
-This project focuses on denoising grayscale images using Partial Differential Equation (PDE) based techniques, particularly the Variational Model and Perona-Malik Anisotropic Diffusion Model. The project also compares these methods with traditional denoising filters such as Average, Median, and Bilateral Filters.
+### This project focuses on denoising grayscale images using Partial Differential Equation (PDE) based techniques, particularly the Variational Model and Perona-Malik Anisotropic Diffusion Model. The project also compares these methods with traditional denoising filters such as Average, Median, and Bilateral Filters.
 
-📌 Objective
+## 📌 Objective
 
 To remove noise from images using PDE-based methods while preserving important image details like edges and textures.
 
-📁 Project Structure
+## 📁 Project Structure
 
 <pre> Denoising-PDEs/
-├── main.py                     # Main driver script
-├── imnoise.py                 # Adds synthetic noise (Gaussian, Salt & Pepper, etc.)
-├── imcast.py                  # Handles image data type conversions
-├── imsmooth.py                # Applies pre-smoothing filters
-├── pad_for_sliding_filter.py # Pads images before filtering
-├── variational_denoiser.py   # Variational PDE denoising
-├── perona_malik.py           # Perona-Malik anisotropic diffusion denoising
-├── fspecial.py               # Custom kernels (Gaussian, Laplacian, etc.)
-├── result/                   # Folder to save results </pre>
+├── main.py                      # Main driver script
+├── is_image.py                  # checks if the image is valid
+├── im_noise.py                  # Adds synthetic noise (Gaussian, Salt & Pepper, etc.)
+├── im_cast.py                   # Handles image data type conversions
+├── im_smooth.py                 # Applies pre-smoothing filters
+├── apply_padding.py             # Handles pre-filter padding
+├── pad_for_sliding_filter.py    # Pads images before filtering
+├── kernel.py                    # Defines custom filter kernels (Gaussian, Laplacian, etc.)     
+├── variational_denoiser.py      # Variational PDE denoising
+├── perona_malik.py              # Perona-Malik anisotropic diffusion denoising
+├── result/                      # Folder to save results </pre>
 
-🧠 Key Concepts
+## 🧠 Key Concepts
 
 Variational Model: Solves an energy minimization problem to reduce noise.
 
@@ -25,7 +27,7 @@ Perona-Malik Model: Performs edge-preserving smoothing using anisotropic diffusi
 
 Pre-Smoothing: Gaussian filter applied before PDEs to make them more stable.
 
-✅ Features
+## ✅ Features
 
 Support for different noise types: Gaussian, Salt & Pepper, Speckle, Poisson
 
@@ -35,7 +37,7 @@ Visual and numerical comparison of denoising results
 
 Calculates Noise Estimation Error (NE) for each method
 
-🔧 How to Run
+## 🔧 How to Run
 
 1. Install dependencies:
 
@@ -49,7 +51,7 @@ Calculates Noise Estimation Error (NE) for each method
 
 4. Denoised results and comparison plots will be saved in the result/ folder.
 
-📊 Output
+## 📊 Output
 
 The following denoising techniques are compared:
 
@@ -69,7 +71,7 @@ Visual Results
 
 Noise Estimation Error (NE)
 
-📈 Sample Results:
+## 📈 Sample Results:
 
 NE1 (Noised): 0.2137
 
@@ -83,7 +85,7 @@ NE5 (Median Filter): 0.1927
 
 NE6 (Bilateral Filter): 0.1926
 
-👤 Author
+## 👤 Author
 
 Kashaf
 
@@ -91,13 +93,13 @@ BS Mathematics Student
 
 Passionate about Image Processing, Computer Vision and AI Research
 
-⭐ Acknowledgements
+## ⭐ Acknowledgements
 
 Inspired by research from:
 
-Springer VCIBA Paper on Variational and Perona-Malik Denoising
+ [Springer VCIBA Paper on Variational and Perona-Malik Denoising](https://vciba.springeropen.com/articles/10.1186/s42492-019-0016-7)
 
-🧠 Future Work
+## 🧠 Future Work
 
 Extend to color images
 
@@ -107,4 +109,4 @@ Add more PDE models (Total Variation, ROF, etc.)
 
 Deploy as a web app using Streamlit
 
-Feel free to fork or star the project! Contributions are welcome.
+### Feel free to fork or star the project! Contributions are welcome.
