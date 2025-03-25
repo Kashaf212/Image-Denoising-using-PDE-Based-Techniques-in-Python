@@ -32,31 +32,32 @@ To remove noise from images using PDE-based methods while preserving important i
 - Visual and numerical comparison of denoising results  
 - Calculates Noise Estimation Error (NE) for each method
 
-## 🔧 How to Run
+## 🛠️ How to Run
 
-1. Install dependencies:
-
-<pre> pip install numpy opencv-python matplotlib scipy scikit-image </pre>
-
+1. **Install dependencies**:  
+   ```bash
+   pip install numpy opencv-python matplotlib scipy scikit-image
 2. Add your image (e.g., image.jpg or image.png) to the project folder.
-  
 3. Run the main script:
-
-<pre> python main.py </pre>
-
+   ```bash
+   python main.py
 4. Denoised results and comparison plots will be saved in the result/ folder.
 
-## 📊 Output
+## 🖼️ Output
 
 The following denoising techniques are compared:
--Variational PDE
--Perona-Malik PDE
--Average Filter
--Median Filter
--Bilateral Filter
+
+- Variational PDE  
+- Perona-Malik PDE  
+- Average Filter  
+- Median Filter  
+- Bilateral Filter  
+
 Each method's performance is compared using:
--Visual Results
--Noise Estimation Error (NE)
+
+- Visual Results  
+- Noise Estimation Error (NE)
+
 
 ## 📉 Sample Results:
 
@@ -72,8 +73,8 @@ NE6 (Bilateral Filter): 0.1926
 **Kashaf Jamil**  
 Department of Mathematics  
 University of Gujrat  
-Roll No: 18541509-085
-Research Interests: Image Processing, Computer Vision, Artificial Intelligence
+Roll No: 18541509-085  
+**Research Interests:** Image Processing, Computer Vision, Artificial Intelligence
 
 ## ⭐ Acknowledgements
 
@@ -83,12 +84,9 @@ Inspired by research from:
 
 ## 🧠 Future Work
 
-Extend to color images
-
-Implement PSNR and SSIM metrics
-
-Add more PDE models (Total Variation, ROF, etc.)
-
-Deploy as a web app using Streamlit
+- Extend to color images  
+- Implement PSNR and SSIM metrics  
+- Add more PDE models (Total Variation, ROF, etc.)  
+- Deploy as a web app using Streamlit
 
 ### Feel free to fork or star the project! Contributions are welcome.
