@@ -85,13 +85,13 @@ NE5 (Median Filter): 0.1927
 
 NE6 (Bilateral Filter): 0.1926
 
-## 👤 Author
+## 👤 About Me
 
-Kashaf
-
-BS Mathematics Student
-
-Passionate about Image Processing, Computer Vision and AI Research
+**Kashaf Jamil**  
+Department of Mathematics  
+University of Gujrat  
+Roll No: 18541509-085
+Research Interests: Image Processing, Computer Vision, Artificial Intelligence
 
 ## ⭐ Acknowledgements
 
