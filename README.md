@@ -39,13 +39,13 @@ Calculates Noise Estimation Error (NE) for each method
 
 1. Install dependencies:
 
-<pre> ```pip install numpy opencv-python matplotlib scipy scikit-image``` </pre>
+<pre> pip install numpy opencv-python matplotlib scipy scikit-image </pre>
 
 2. Add your image (e.g., image.jpg or image.png) to the project folder.
   
 3. Run the main script:
 
-<pre> ```python main.py``` </pre>
+<pre> python main.py </pre>
 
 4. Denoised results and comparison plots will be saved in the result/ folder.
 
